@@ -1,0 +1,72 @@
+body {
+	background:#263340;
+  font-family: Arial;
+	color: white;
+}
+
+
+
+/* About me div */
+.aboutMe{
+	background-color: inherit;
+}
+
+div.content
+{
+	background-color: inherit;
+	padding: 5px;
+}
+
+#indexp
+{
+	background-color: #f5fffa;
+	padding: 300px;
+	color: black;
+}
+
+
+/* Styling for images */
+img
+{
+	float: left;
+	margin: 1%;
+	padding-left: 250px;
+}
+
+/* Style for topnav bar */
+.topnav {
+	background-color:#374048;
+	color: #ffffff;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	z-index: 1;
+}
+
+/* Attributes of topnav */
+.topnav a
+{
+    color: white;
+    float: left;
+    padding: 14px 16px;
+		display: block;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover
+{
+    color: black;
+}
+
+#map
+{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 400px;  /* The height is 400 pixels */
+	width: 50%;  /* The width is the width of the web page */
+	padding: inherit;
+	position: relative;
+}
